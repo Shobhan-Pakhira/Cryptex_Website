@@ -201,8 +201,9 @@ body.active{
 .btn-primary:is(:hover, :focus)::after{
     transform: translateX(0);
     opacity: 1;
-    
 }
+
+
 
 /* HEADER */
 
@@ -310,4 +311,6 @@ body.active{
 .navbar-link:is(:hover, :focus, .active){
     color: var(--blue-crayola);
 }
+
+/* HERO SECTION*/
 
