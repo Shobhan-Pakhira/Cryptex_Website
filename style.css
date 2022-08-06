@@ -203,7 +203,13 @@ body.active{
     opacity: 1;
 }
 
+.section { padding-block: var(--section-padding); }
 
+[data-section] > *{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: var(--transition-3);
+}
 
 /* HEADER */
 
